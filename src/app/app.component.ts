@@ -7,6 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'We learn CMS!';
-  selectedFeature: string;
-//removed switchView() function
+//removed switchView() function and selectedFEature property
 }
