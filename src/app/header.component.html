@@ -19,10 +19,8 @@
           <li routerLinkActive="active"><a [routerLink]="'/documents'">Documents</a></li>
           <li routerLinkActive="active"><a [routerLink]="'/messages'">Messages</a></li>
           <li routerLinkActive="active"><a [routerLink]="'/contacts'">Contacts</a></li>
-          <li routerLinkActive="active"><a [routerLink]="'/contacts'">TEST</a></li>
         </ul>
-        
-        
+                
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown" [ngClass]="{ open: isUserDropdownOpen }">
             <a href="#" (click)="toggleUserDropdown()">User<span class="caret"></span></a>
