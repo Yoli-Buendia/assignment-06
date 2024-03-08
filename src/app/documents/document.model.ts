@@ -1,4 +1,5 @@
 export class Document{
+    subscribe: any;
     constructor (
         public id: string,
         public name: string,
