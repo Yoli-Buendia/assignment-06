@@ -13,7 +13,7 @@ export class DocumentListComponent {
 
   constructor(private documentService: DocumentsService) {}
 
-  ngOnInit(): void {
+  ngOnInit(){
     this.documents = this.documentService.getDocuments();
     this.documentService.documentChangedEvent
       .subscribe(
